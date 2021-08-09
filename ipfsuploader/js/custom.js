@@ -61,7 +61,7 @@ $(document).ready(function(){
             },
             dragDrop: {},
             uploadFile: {
-                url: "https://ipfs.infura.io:5001/api/v0/add?pin=true",
+                url: "https://ipfsupload.cyfan.top/api/v0/add?pin=true",
                 data: {},
                 type: 'POST',
                 enctype: 'multipart/form-data',
