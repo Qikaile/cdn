@@ -61,7 +61,7 @@ $(document).ready(function(){
             },
             dragDrop: {},
             uploadFile: {
-                url: "https://ipfsupload.cyfan.top/api/v0/add?pin=true",
+                url: "https://ipfs.infura.io:5001/api/v0/add?pin=true",
                 data: {},
                 type: 'POST',
                 enctype: 'multipart/form-data',
@@ -70,7 +70,7 @@ $(document).ready(function(){
                     var parent = el.find(".jFiler-jProgressBar").parent();
                     el.find(".jFiler-jProgressBar").fadeOut("slow", function(){
 						var hhh=data.Hash;
-                        $("<div class=\"jFiler-item-others text-success\"><a href=\"https\:\/\/ipfs.cyfan.top\/ipfs\/" + hhh + "\"  target=\"\_blank\" ><i class=\"icon-jfi-check-circle\"></i> Download</a></div>").hide().appendTo(parent).fadeIn("slow");
+                        $("<div class=\"jFiler-item-others text-success\"><a href=\"https\:\/\/ipfs.qikaile.tk\/ipfs\/" + hhh + "\"  target=\"\_blank\" ><i class=\"icon-jfi-check-circle\"></i> Download</a></div>").hide().appendTo(parent).fadeIn("slow");
 								
                     });
 
@@ -90,7 +90,7 @@ $(document).ready(function(){
             /**    var file = file.name;
                 $.post('./php/remove_file.php', {file: file});
             
-			window.location.href="https://ipfs.cyfan.top/ipfs/"+data.Hash;**/
+			window.location.href="https://ipfs.qikaile.tk/ipfs/"+data.Hash;**/
 			},
         };
     
